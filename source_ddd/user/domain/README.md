@@ -1,0 +1,1 @@
+En la carpeta dominio no se pueden hacer importaciones a otros paquetes que no sean de dominio.

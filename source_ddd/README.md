@@ -1,0 +1,1 @@
+En esta carpeta está el código de ejemplo de la aplicación en arquitectura CLEAN
