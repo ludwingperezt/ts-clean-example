@@ -1,3 +1,6 @@
+/**
+ * Definición de esquema de base de datos para MongoDB
+ */
 import {Schema, model} from "mongoose"
 import { UserEntity } from "../../domain/user.entity"
 

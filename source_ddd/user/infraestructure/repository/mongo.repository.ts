@@ -1,3 +1,13 @@
+/**
+ * Estas son implementaciones de la interfaz de acceso a datos
+ * definidas en los repository de la capa de dominio.
+ * 
+ * La definición de una interfaz que luego es implementada en una
+ * clase aparte permite desacoplar el origen de datos con su respectivo
+ * tratamiento, permitiendo a los servicios o casos de uso, simplemente
+ * llamar funciones de acceso a datos sin tomar en cuenta implementaciones
+ * de bajo nivel.
+ */
 import { UserEntity } from "../../domain/user.entity";
 import { UserRepository } from "../../domain/user.repository";
 import UserModel from "../model/user.schema";

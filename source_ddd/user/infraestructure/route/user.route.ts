@@ -1,11 +1,18 @@
+/**
+ * Definición de rutas.
+ * 
+ * En este archivo es que se hace la creación de los objetos de implementación
+ * de repositorios, casos de uso y controladores, para luego mapear a las
+ * rutas correspondientes.
+ * 
+ * Para hacer el mapeo de rutas se puede usar la librería inversify:
+ * https://inversify.io/
+ * para hacer IoC (inversion of control) automáticamente.
+ */
 import { Router } from "express";
 import { UserUseCase } from "../../application/userUseCase";
 import { UserController } from "../controller/user.controller";
 import { MongoRepository } from "../repository/mongo.repository";
-
-// Para hacer el mapeo de rutas se puede usar la librería inversify
-// https://inversify.io/
-// para hacer IoC (inversion of control) automáticamente.
 
 const route = Router()
 

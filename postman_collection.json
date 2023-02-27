@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "24c97b80-909b-44f5-9a32-cb4bbd84e44c",
+		"name": "TS CLEAN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18643674"
+	},
+	"item": [
+		{
+			"name": "Insertar usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Ludwing\",\n    \"email\": \"l3@m.com\",\n    \"description\": \"asdfa\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener usuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/user?email=l@m.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"user"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "l@m.com"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,3 +1,6 @@
+/**
+ * Archivo principal de inicio de la aplicación DDD
+ */
 import express from "express"
 import cors from "express"
 import userRoute from "./infraestructure/route/user.route"
