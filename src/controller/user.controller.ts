@@ -1,3 +1,8 @@
+/**
+ * Funciones de controller: Estas funciones reciben las peticiones
+ * a los endpoints de la API y retornan respuestas.
+ * El procesamiento se hace llamando a los servicios.
+ */
 import { registerUser, getDetailUser } from "../services/user.service";
 import { Request, Response } from "express";
 

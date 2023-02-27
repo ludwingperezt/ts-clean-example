@@ -1,3 +1,6 @@
+/**
+ * Punto de acceso principal de la aplicación MVC
+ */
 import express from "express"
 import cors from "express"
 import userRoute from "./routes/user.route"

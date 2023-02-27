@@ -1,3 +1,6 @@
+/**
+ * Función de definición de conexión con base de datos.
+ */
 import { connect } from "mongoose";
 import "dotenv/config"
 
